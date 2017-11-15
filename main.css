@@ -21,18 +21,139 @@ header {
   grid-area: header;
 }
 
+header a:link {
+    font-size: 45px;
+    color: #73000a;
+}
+
+header a:visited {
+    color: #73000a;
+}
+
+header a:hover {
+    color: #000000;
+}
+
+header a:active {
+     color: #000000;
+}
+
 main {
-  background-color: #60d65c;
+  background-color: #ffffffff;
   grid-area: main;
 }
 
+.boxed {
+  background-color: #ffffff;
+  border: 5px solid #000000;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+   background-color: #ffffff;
+   color: #000000;
+   font-size: 32px;
+   font-weight: bold;
+   padding: 25px;
+}
+
+tr.home {
+  font-weight: bold;
+  color: #73000a;
+  background-color: #000000
+}
+table, th, td {
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table,th,td
+{
+  border:2px solid #ffffff;
+}
+table
+{
+  width:50%;
+}
+td
+{
+  padding: 7px;
+}
+tr
+{
+  background-color: #73000A;
+  color: #000000;
+  font-weight: bold;
+}
+th
+{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 4px;
+}
+
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #aaaaaa;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+}
 aside {
-  background-color: #53d6d1;
+  font-size: 20px;
+  background-color: #ffffff;
   grid-area: aside;
 }
 
+aside a:link {
+    font-size: 15px;
+    color: #73000a;
+}
+
+aside a:visited {
+    color: #73000a;
+}
+
+aside a:hover {
+    color: #000000;
+}
+
+aside a:active {
+     color: #000000;
+}
+
 footer {
-  background-color: #9863d8;
+  background-color: #ffffff;
   grid-area: footer;
 }
 

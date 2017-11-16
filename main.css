@@ -39,9 +39,27 @@ header a:active {
 }
 
 main {
+  font-size: 22px;
   background-color: #ffffffff;
   grid-area: main;
 }
+main a:link {
+    font-size: 22px;
+    color: #73000a;
+}
+
+main a:visited {
+    color: #73000a;
+}
+
+main a:hover {
+    color: #000000;
+}
+
+main a:active {
+     color: #000000;
+}
+
 
 .boxed {
   background-color: #ffffff;
@@ -153,8 +171,26 @@ aside a:active {
 }
 
 footer {
+  font-size: 20px;
   background-color: #ffffff;
   grid-area: footer;
+}
+
+footer a:link {
+    font-size: 20px;
+    color: #73000a;
+}
+
+footer a:visited {
+    color: #73000a;
+}
+
+footer a:hover {
+    color: #000000;
+}
+
+footer a:active {
+     color: #000000;
 }
 
 @media (max-width: 600px) {

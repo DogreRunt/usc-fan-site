@@ -49,6 +49,10 @@ header a:active {
      color: #000000;
 }
 
+div.social-links {
+  text-align: center;
+}
+
 main {
   padding: 8px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -73,6 +77,13 @@ main a:active {
      color: #000000;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
 
 .boxed {
   background-color: #ffffff;
@@ -116,10 +127,10 @@ th, td {
     text-align: center;
 }
 
-table,th,td
-{
+table,th,td {
   border:2px solid #ffffff;
 }
+
 table {
   width:50%;
 }
@@ -177,11 +188,13 @@ aside {
 }
 
 aside h2 {
+  text-align: center;
   font-size: 25px;
   color: #ffffff;
 }
 
 aside p {
+  text-align: center;
   font-size: 16px;
   color: #ffffff;
 }
@@ -202,6 +215,10 @@ aside a:hover {
 
 aside a:active {
      color: #ffffff;
+}
+
+div.top-five {
+  text-align: center;
 }
 
 footer {
@@ -238,4 +255,13 @@ footer a:active {
       "aside"
       "footer";
   }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  img.logo {
+    display: none;
+  }
+
 }

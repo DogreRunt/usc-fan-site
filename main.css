@@ -7,8 +7,10 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-img {
-  max-width: 100%;
+.boxed {
+  background-color: #ffffff;
+  border: 5px solid #000000;
+  padding: 10px;
 }
 
 div.container {
@@ -24,7 +26,29 @@ div.container {
   max-width: 800px;
 }
 
+div.social-links {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  border: 5px solid #000000;
+  border-radius: 35px 0 35px 0;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
 header {
+  text-align: center;
   padding: 8px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 25px;
@@ -47,10 +71,6 @@ header a:hover {
 
 header a:active {
      color: #000000;
-}
-
-div.social-links {
-  text-align: center;
 }
 
 main {
@@ -77,23 +97,8 @@ main a:active {
      color: #000000;
 }
 
-h1 {
-  font-size: 48px;
-  border: 5px solid #000000;
-  border-radius: 35px 0 35px 0;
-  color: #000000;
-  padding: 20px;
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-.boxed {
-  background-color: #ffffff;
-  border: 5px solid #000000;
-  padding: 10px;
+main img {
+    text-align: center;
 }
 
 table {
@@ -184,6 +189,7 @@ th {
     font-weight: bold;
   }
 }
+
 aside {
   padding: 8px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -207,7 +213,7 @@ aside p {
 aside a:link {
     font-weight: bold;
     font-size: 15px;
-    color: #000000;
+    color: #ffffff;
 }
 
 aside a:visited {
@@ -215,14 +221,14 @@ aside a:visited {
 }
 
 aside a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 aside a:active {
      color: #ffffff;
 }
 
-div.top-five {
+div.key-players {
   text-align: center;
 }
 
